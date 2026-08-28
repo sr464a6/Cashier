@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>Cashier System</title>
+
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+<body>
+
+```
+<div class="app">
+
+    <header class="header">
+        <div>
+            <h1>Cashier System</h1>
+            <p>Sistem kasir sederhana</p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="card">
+            <h2>Tambah Produk</h2>
+
+            <div class="form-grid">
+                <div>
+                    <label for="productName">Nama Produk</label>
+                    <input
+                        type="text"
+                        id="productName"
+                        placeholder="Contoh: Indomie"
+                    >
+                </div>
+
+                <div>
+                    <label for="productPrice">Harga</label>
+                    <input
+                        type="number"
+                        id="productPrice"
+                        placeholder="Contoh: 5000"
+                        min="0"
+                    >
+                </div>
+
+                <div>
+                    <label for="productStock">Stok</label>
+                    <input
+                        type="number"
+                        id="productStock"
+                        placeholder="Contoh: 10"
+                        min="0"
+                    >
+                </div>
+            </div>
+
+            <button onclick="addProduct()">
+                Tambah Produk
+            </button>
+        </section>
+
+        <section class="card">
+            <div class="section-header">
+                <h2>Daftar Produk</h2>
+
+                <button
+                    class="secondary"
+                    onclick="loadProducts()"
+                >
+                    Refresh
+                </button>
+            </div>
+
+            <div id="productList">
+                <p class="empty">
+                    Belum ada produk.
+                </p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Keranjang</h2>
+
+            <div id="cartList">
+                <p class="empty">
+                    Keranjang masih kosong.
+                </p>
+            </div>
+
+            <div class="total">
+                <span>Total</span>
+                <strong id="totalPrice">Rp0</strong>
+            </div>
+
+            <button
+                class="checkout"
+                onclick="checkout()"
+            >
+                Checkout
+            </button>
+        </section>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+```
+
+</body>
+</html>
