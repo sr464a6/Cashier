@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 
 # 🛒 Cashier Management System
@@ -264,7 +263,5 @@ This project was created as a web-based cashier management application to simpli
 ## 📄 License
 
 This project is intended for educational and development purposes.
-
-```
 
 ```
