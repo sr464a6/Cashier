@@ -36,77 +36,88 @@ This project is built using:
 
 ## ✨ Features
 
-<details>
-<summary><b>🔐 Admin Login (Click to expand)</b></summary>
-
-- Admin authentication
-- Session-based login system
-- Secure password verification
-</details>
-
-<details>
-<summary><b>👥 Customer Management (Click to expand)</b></summary>
-
-- Add customer data
-- Edit customer data
-- Delete customer data
-- View customer information
-</details>
-
-<details>
-<summary><b>📦 Product & Stock Management (Click to expand)</b></summary>
-
-- Add products
-- Edit product information
-- Delete products
-- Manage product prices
-- Manage product stock
-- Display low-stock products
-</details>
-
-<details>
-<summary><b>🛒 Sales Transactions (Click to expand)</b></summary>
-
-- Select customers
-- Select products
-- Enter purchase quantity
-- Automatically calculate subtotal
-- Automatically calculate total price
-- Automatically update product stock
-</details>
-
-<details>
-<summary><b>📋 Transaction History (Click to expand)</b></summary>
-
-- View completed transactions
-- Search transactions
-- View customer and product details
-- Delete transactions
-- Automatically restore stock when a transaction is deleted
-</details>
-
-<details>
-<summary><b>🧾 Printable Receipt (Click to expand)</b></summary>
-
-- Display transaction details
-- Display customer information
-- Display purchased products
-- Display quantity and price
-- Display total payment
-- Print transaction receipt
-</details>
-
-<details>
-<summary><b>📊 Dashboard (Click to expand)</b></summary>
-
-The dashboard provides an overview of:
-- Total customers
-- Total products
-- Low-stock products
-- Total transactions
-- Total sales
-- Recent transactions
-</details>
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <h3>🔐 Admin Login</h3>
+      <p align="left">
+        • Admin authentication<br>
+        • Session-based login system<br>
+        • Secure password verification
+      </p>
+    </td>
+    <td width="50%" align="center">
+      <h3>👥 Customer Management</h3>
+      <p align="left">
+        • Add customer data<br>
+        • Edit customer data<br>
+        • Delete customer data<br>
+        • View customer information
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <h3>📦 Product & Stock Management</h3>
+      <p align="left">
+        • Add products<br>
+        • Edit product information<br>
+        • Delete products<br>
+        • Manage product prices<br>
+        • Manage product stock<br>
+        • Display low-stock products
+      </p>
+    </td>
+    <td width="50%" align="center">
+      <h3>🛒 Sales Transactions</h3>
+      <p align="left">
+        • Select customers<br>
+        • Select products<br>
+        • Enter purchase quantity<br>
+        • Automatically calculate subtotal<br>
+        • Automatically calculate total price<br>
+        • Automatically update product stock
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <h3>📋 Transaction History</h3>
+      <p align="left">
+        • View completed transactions<br>
+        • Search transactions<br>
+        • View customer and product details<br>
+        • Delete transactions<br>
+        • Automatically restore stock when a transaction is deleted
+      </p>
+    </td>
+    <td width="50%" align="center">
+      <h3>🧾 Printable Receipt</h3>
+      <p align="left">
+        • Display transaction details<br>
+        • Display customer information<br>
+        • Display purchased products<br>
+        • Display quantity and price<br>
+        • Display total payment<br>
+        • Print transaction receipt
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <h3>📊 Dashboard</h3>
+      <p align="left">
+        The dashboard provides an overview of:<br><br>
+        • Total customers<br>
+        • Total products<br>
+        • Low-stock products<br>
+        • Total transactions<br>
+        • Total sales<br>
+        • Recent transactions
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
